@@ -1,0 +1,85 @@
+{ "skills": [
+    { "segment": "webs", "data": [
+      { "name": "Web Development", "details": [
+        { "type": "PHP", "childs": [
+          { "name": "Codeigniter", "level": 90 },
+          { "name": "Laravel", "level": 80 }
+        ]},
+        { "type": "JavaScript", "childs": [
+          { "name": "Angular", "level": 90 },
+          { "name": "Vue.js", "level": 80 }
+        ]},
+        { "type": "Python", "childs": [
+          { "name": "Django", "level": 80 }
+        ]},
+        { "type": "C#", "childs": [
+          { "name": "ASP.NET Core", "level": 70 }
+        ]}
+      ]}
+    ]},
+    { "segment": "apis", "data": [
+      { "name": "API Development", "details": [
+        { "type": "Python", "childs": [
+          { "name": "Flask", "level": 80 }
+        ]},
+        { "type": "JavaScript", "childs": [
+          { "name": "Node Js", "level": 90 },
+          { "name": "Express Js", "level": 80 }
+        ]},
+        { "type": "Java", "childs": [
+          { "name": "Spring Boot", "level": 80 },
+          { "name": "Hibernate", "level": 80 }
+        ]},
+        { "type": "PHP", "childs": [
+          { "name": "Slim", "level": 90 },
+          { "name": "Lumen", "level": 85 }
+        ]},
+        { "type": "Go", "childs": [
+          { "name": "Go with Gin", "level": 85 }
+        ]}
+      ]}
+    ]},
+    { "segment": "mobile", "data": [
+      { "name": "Mobile Apps Development", "details": [
+        { "type": "JavaScript / TypeScript", "childs": [
+          { "name": "Ionic", "level": 75 }
+        ]},
+        { "type": "Java / Kotlin", "childs": [
+          { "name": "Android SDK", "level": 85 }
+        ]},
+        { "type": "Hybrid", "childs": [
+          { "name": "Flutter", "level": 90 }
+        ]}
+      ]}
+    ]},
+    { "segment": "database", "data": [
+      { "name": "Database", "details": [
+        { "type": "Sql", "childs": [
+          { "name": "MySql", "level": 90 },
+          { "name": "PosgreSql", "level": 80 },
+          { "name": "SQLite", "level": 75 },
+          { "name": "Oracle", "level": 70 }
+        ]},
+        { "type": "NoSql", "childs": [
+          { "name": "MongoDB", "level": 70 }
+        ]}
+      ]}
+    ]},
+    { "segment": "desktop", "data": [
+      { "name": "Desktop Development", "details": [
+        { "type": "Windows", "childs": [
+          { "name": "VB .Net", "level": 90 },
+          { "name": "Delphi", "level": 80 },
+          { "name": "Java / NetBean", "level": 70 }
+        ]}
+      ]}
+    ]},
+    { "segment": "design", "data": [
+      { "name": "Design Tools", "details": [
+        { "type": "", "childs": [
+          { "name": "Figma", "level": 80 }
+        ]}
+      ]}
+    ]}
+  ]
+}

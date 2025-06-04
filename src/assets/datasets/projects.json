@@ -1,0 +1,170 @@
+[
+	{	"type": "Web Applications", "data": [
+		{
+			"id": 0,
+			"company": "Bhakti Manusia Indonesia",
+			"project": "Asuh Diri",
+			"image": "asri.png",
+			"image_large": "asri-2x.png",
+			"color": "rgba(94, 181, 134, 0.8)",
+			"tags": ["CI", "Angular", "Flask"],
+			"desc" : {
+				"title": "A landing page designed as a provider of mental health consultation services supported by many psychologists, doctors, and teachers, also offers articles on health and online classes.",
+				"details": [
+					{ "type": "Frontend", "engine": ["CodeIgniter 2.0","AngularJs"]},
+					{ "type": "Backend", "engine": ["Flask"]}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"company": "Transportee",
+			"project": "Transportee Dashboard",
+			"image": "transportee.png",
+			"image_large": "transportee-2x.png",
+			"color": "rgba(0, 128, 0, 0.8)",
+			"tags": ["CI", "Angular", "Flask"],
+			"desc" : {
+				"title": "An <b>Admin Dashboard</b> designed as a provider of courier's informations, packages delivery informations and packages tracking, includes payment's informations.",
+				"details": [
+					{ "type": "Frontend", "engine": ["CodeIgniter 2.0","AngularJs"]},
+					{ "type": "Backend", "engine": ["Flask"]}
+				]
+			}
+		},
+		{
+			"id": 2,
+			"company": "Union Logistics",
+			"project": "U-Track Web Admin",
+			"image": "u-track-web.png",
+			"image_large": "u-track-web-2x.png",
+			"color": "rgba(239, 74, 55, 0.8)",
+			"tags": ["CI", "Angular", "Slim"],
+			"desc" : {
+				"title": "An <b>Admin Dashboard</b> designed as a provider of courier's informations, packages delivery informations, packages tracking with maps for maping location of drivers.",
+				"details": [
+					{ "type": "Frontend", "engine": ["CodeIgniter 2.0","AngularJs"]},
+					{ "type": "Backend", "engine": ["Slim Framework"]}
+				]
+			}
+		},
+		{
+			"id": 3,
+			"company": "VDCI",
+			"project": "VDCI Landing Page",
+			"image": "vdci.png",
+			"image_large": "vdci-2x.png",
+			"color": "rgba(125, 97, 171, 0.8)",
+			"tags": ["CI", "Slim"],
+			"desc" : {
+				"title": "A landing page designed as a provider of cloud server consultation services.",
+				"details": [
+					{ "type": "Frontend", "engine": ["CodeIgniter 2.0"]},
+					{ "type": "Backend", "engine": ["Slim Framework"]}
+				]
+			}
+		}
+	]},
+	{	"type": "Mobile Applications", "data": [
+		{
+			"id": 0,
+			"company": "Prima Daya Andalan",
+			"project": "PDA Attendance System",
+			"image": "pda-attendance.png",
+			"image_large": "pda-attendance-2x.png",
+			"color": "rgba(36, 174, 141, 0.8)",
+			"tags": ["Java", "Kotlin", "Slim"],
+			"desc" : {
+				"title": "A mobile app designed as a tool to records employee's attendance everyday, using <b>photo</b> and <b>gps</b> .",
+				"details": [
+					{ "type": "Frontend", "engine": ["Java / Kotlin"]},
+					{ "type": "Backend", "engine": ["Slim Framework"]}
+				]
+			}
+		},
+		{
+			"id": 1,
+			"company": "Prima Daya Andalan",
+			"project": "PDA Store Visits",
+			"image": "pda-visite.png",
+			"image_large": "pda-visite-2x.png",
+			"color": "rgba(36, 174, 141, 0.8)",
+			"tags": ["Java", "Kotlin", "Slim"],
+			"desc" : {
+				"title": "A mobile app designed as a tool to records employee's visits, using <b>photo</b> and <b>gps</b> .",
+				"details": [
+					{ "type": "Frontend", "engine": ["Java / Kotlin"]},
+					{ "type": "Backend", "engine": ["Slim Framework"]}
+				]
+			}
+		},
+		{
+			"id": 2,
+			"company": "CLE Logistics",
+			"project": "CLE Courier System",
+			"image": "cle-system.png",
+			"image_large": "cle-system-2x.png",
+			"color": "rgba(61, 81, 180, 0.8)",
+			"tags": ["Java", "Kotlin", "Slim"],
+			"desc" : {
+				"title": "A mobile app designed as a tool to records packages delivery and tracking, using <b>photo</b> and <b>gps</b> .",
+				"details": [
+					{ "type": "Frontend", "engine": ["Java / Kotlin"]},
+					{ "type": "Backend", "engine": ["Slim Framework"]}
+				]
+			}
+		},
+		{
+			"id": 3,
+			"company": "Bali Muda Center",
+			"project": "EiduPay",
+			"image": "eidu-pay.png",
+			"image_large": "eidu-pay-2x.png",
+			"color": "rgba(98, 202, 201, 0.8)",
+			"tags": ["Java", "Spring", "Hibernate"],
+			"desc" : {
+				"title": "A mobile app designed as a payment's tools, used by schools to pay any cost.",
+				"details": [
+					{ "type": "Frontend", "engine": ["Java Native"]},
+					{ "type": "Backend", "engine": ["Spring Boot", "Hibernate"]}
+				]
+			}
+		},
+		{
+			"id": 4,
+			"company": "Bhakti Manusia Indonesia",
+			"project": "School Of Parenting",
+			"image": "sop.png",
+			"image_large": "sop-2x.png",
+			"color": "rgba(254, 177, 1, 0.8)",
+			"tags": ["Flutter", "Flask"],
+			"desc" : {
+				"title": "A mobile app designed as a educations tools, many online classes, online workshops and private chat with expert to consultation any problems about mental health.",
+				"details": [
+					{ "type": "Frontend", "engine": ["Flutter"]},
+					{ "type": "Backend", "engine": ["Flask"]}
+				]
+			}
+		},
+		{
+			"id": 5,
+			"company": "Union Logistics",
+			"project": "U-Track Mobile Apps",
+			"image": "u-track.png",
+			"image_large": "u-track-2x.png",
+			"color": "rgba(239, 74, 55, 0.8)",
+			"tags": ["Flutter", "Flask"],
+			"desc" : {
+				"title": "A mobile app designed as a tool to records packages delivery and tracking, using <b>photo</b> and <b>gps</b> .",
+				"details": [
+					{ "type": "Frontend", "engine": ["Flutter"]},
+					{ "type": "Backend", "engine": ["Flask"]}
+				]
+			}
+		}
+	]}
+]
+
+
+
+

@@ -1,0 +1,83 @@
+[
+	{
+		"id": 0,
+		"company": "PT Hanatekindo Mulia Abadi",
+		"position": "Android & Web Programer",
+		"venue": "Jakarta",
+		"periode_year": "2024 - Now",
+		"periode_month": ["Dec"]
+	},
+	{
+		"id": 1,
+		"company": "PT Virtual Data Center Indonesia",
+		"position": "Android & Web Programer",
+		"venue": "Jakarta",
+		"periode_year": "2021 - 2024",
+		"periode_month": ["Jan","Dec"]
+	},
+	{
+		"id": 2,
+		"company": "Q-Titip / Transportee",
+		"position": "Web Programer",
+		"venue": "Remote",
+		"periode_year": "2021 - 2023",
+		"periode_month": ["Jan","Dec"]
+	},
+	{
+		"id": 3,
+		"company": "PT Bhakti Manusia Indonesia",
+		"position": "Android & Web Programer",
+		"venue": "Semarang",
+		"periode_year": "2020 - 2023",
+		"periode_month": ["Mar","Dec"]
+	},
+	{
+		"id": 4,
+		"company": "PT Bali Muda Center (BMC)",
+		"position": "Android Programer",
+		"venue": "Jakarta",
+		"periode_year": "2019 - 2020",
+		"periode_month": ["Jul","Feb"]
+	},
+	{
+		"id": 5,
+		"company": "PT Teravin Technovation",
+		"position": "Android Programer",
+		"venue": "Jakarta",
+		"periode_year": "2019 - 2019",
+		"periode_month": ["Apr","Jun"]
+	},
+	{
+		"id": 6,
+		"company": "PT Total Inti Corpora (TORA)",
+		"position": "Full-stack Programer",
+		"venue": "Jakarta",
+		"periode_year": "2014 - 2019",
+		"periode_month": ["Nov","Mar"]
+	},
+	{
+		"id": 7,
+		"company": "PT Amanat Perkasa Speed",
+		"position": "Billing Staff",
+		"venue": "Jakarta",
+		"periode_year": "2012 - 2014",
+		"periode_month": ["May","Oct"]
+	},
+	{
+		"id": 8,
+		"company": "PT Proton Gumilang",
+		"position": "Entry Data Processor (EDP)",
+		"venue": "Jakarta",
+		"periode_year": "2011 - 2012",
+		"periode_month": ["Sep","Jul"]
+	},
+	{
+		"id": 9,
+		"company": "PT Sumber Alfaria Trijaya",
+		"position": "Merchandiser (MD)",
+		"venue": "Serang",
+		"periode_year": "2007 - 2011",
+		"periode_month": ["Feb","Jun"]
+	}
+
+]
