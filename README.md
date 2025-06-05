@@ -1,4 +1,7 @@
-# my-portfolio
+# CV - Yayan Agustian
+```
+using vue 3 with vite v6.3.5
+```
 
 ## Project setup
 ```
