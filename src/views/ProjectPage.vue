@@ -27,7 +27,7 @@
 	<p class="font-12">*) and many projects which can't be shown here</p>
 
 	<!-- Popup Overlay -->
-	<div v-if="popupVisible" class="popup-overlay">
+	<div v-show="popupVisible" class="popup-overlay">
 		<div class="popup-content">
 			<div class="popup-close" @click="closePopup">&times;</div>
 			<img :src="popupImage" alt="" class="img-fluid popup-image" />
@@ -57,25 +57,32 @@
 	}
 
 	function openPopup(src) {
+		var width = window.innerWidth;
+		console.log(width);
+
 		popupImage.value = getImageUrl(`projects/${src.image_large}`)
 		popupDesc.value = safeHtml(src.desc.title)
 		engines.value = src.desc.details
-
-		popupVisible.value = true
-
 		setTimeout(function() {
 			const img = document.querySelector('.popup-image')
 			const text = document.querySelector('.popup-desc')
+			const content = document.querySelector('.popup-content')
 
-			var width = img.clientWidth
-			if (width < 1) {
-				width = 900
+			// var width = img.clientWidth
+			if (img.clientWidth < 900) {
+				width = width - 30
+				content.style.width = `${width}px`;
+				console.log(width)
+			}else{
+				width = img.clientWidth
 			}
+			img.style.width = `${width}px`;
 			text.style.width = `${width}px`;
 			text.style.backgroundColor = src.color;
 
-			console.log(width)
-		}, 5);
+		}, 10);
+
+		popupVisible.value = true
 
 	}
 
@@ -85,8 +92,10 @@
 		popupDesc.value = null
 	}
 
+	const images = import.meta.glob('@/assets/images/**/*.{png,jpg,jpeg,webp}', { eager: true, import: 'default' })
 	function getImageUrl(filename) {
-		return require(`@/assets/images/${filename}`);
+		return images[`/src/assets/images/${filename}`]
+		// return 'assets/images/${filename}';
 	}
 
 	function handleKeydown(event) {

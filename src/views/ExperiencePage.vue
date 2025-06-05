@@ -23,11 +23,14 @@
                   <span>{{ item.position }}</span> - <small>{{ item.venue }}</small>
                 </div>
               </div>
-              <div>
+              <div class="hide-mobile">
                 <span>{{ item.periode_year }}</span>
                 <div class="space-between">
                   <span class="font-12" v-for="e in item.periode_month" :key="e" >{{e}}</span>
                 </div>
+              </div>
+              <div class="show-mobile">
+                <span>{{item.periode_month[0]}} {{ item.periode_year.split('-')[0] }} - {{item.periode_month[1]}} {{ item.periode_year.split('-')[1] }}</span>
               </div>
             </div>
           </div>

@@ -428,10 +428,26 @@ b {
   overflow-wrap: break-word;
 }
 
+.hide-mobile {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
 @media (max-width: 767.98px) {
 }
 
 @media (max-width: 1145px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+
   #app {
     padding: 0.3rem 0.2rem;
   }

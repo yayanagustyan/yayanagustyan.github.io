@@ -5,7 +5,7 @@
 
     <div class="row">
       <div class="col-sm-3">
-        <nav id="sidebar" class="bg-dark text-white px-2 py-5 flex-shrink-0">
+        <nav id="sidebar" class="bg-dark text-white px-2 py-5">
           <div class="text-center mb-0 profile-wrapper">
             <div class="profile-image">
               <img :src="Me" alt="Me"/>
@@ -76,11 +76,11 @@
 </template>
 
 <script setup>
-  import AboutPage from './views/AboutPage'
-  import SkillsPage from './views/SkillsPage'
-  import ExperincePage from './views/ExperiencePage'
-  import ProjectPage from './views/ProjectPage'
-  import ContactPage from './views/ContactPage'
+  import AboutPage from '@/views/AboutPage.vue'
+  import SkillsPage from '@/views/SkillsPage.vue'
+  import ExperincePage from '@/views/ExperiencePage.vue'
+  import ProjectPage from '@/views/ProjectPage.vue'
+  import ContactPage from '@/views/ContactPage.vue'
 
   import Me from './assets/images/me-in-suit.png'// @ = src
 
